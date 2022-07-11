@@ -13,7 +13,21 @@ src: url(../fonts/Morguns-Condensed.ttf);
     src: url(../fonts/DIN.ttf);
 }
 
+@font-face {
+    font-family: dinBold;
+    src: url(../fonts/DIN\ Bold.ttf);
+}
+
+@font-face {
+    font-family: dinMed;
+    src: url(../fonts/DIN\ Medium.ttf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400&display=swap');
+
+.row{
+    margin: 0;
+}
 
 .navbar{
     background-color: #000000;
@@ -99,4 +113,44 @@ src: url(../fonts/Morguns-Condensed.ttf);
 
 .nav-link{
     color: #ffffff;
+}
+
+.recent-wrapper{
+    background-color: #EAEAEA;
+    padding: 30px;
+}
+.recent{
+    font-family: morguns;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+
+.btn-primary{
+    background-color: #24148C;
+    color: #ffffff;
+    border: #24148C;
+}
+
+.card{
+    border: #000000 solid 2px;
+    background-color: #00000010;
+    padding: 10px;
+}
+
+.img-fluid{
+    border-radius: 2px;
+}
+
+.card-title{
+    font-family: dinBold;
+    text-transform: uppercase;
+}
+
+.price{
+    font-family: dinMed;
+}
+
+.pd-info{
+    font-family: din;
 }
