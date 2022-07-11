@@ -14,7 +14,6 @@ src: url(../fonts/Morguns-Condensed.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400&display=swap');
-/* Carousel styling */
 
 .navbar{
     background-color: #000000;
@@ -59,39 +58,28 @@ src: url(../fonts/Morguns-Condensed.ttf);
     margin-bottom: 30px;
 }
 
-#introCarousel,
-.carousel-inner,
-.carousel-item,
-.carousel-item.active {
-min-height: 100vh;
+#introCarousel, .carousel-inner, .carousel-item, .carousel-item.active {
+    min-height: 100vh;
 }
 
-
-
 .carousel-item:nth-child(1) {
-background-image: url('../images/bg-main-purple.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center ;
+    background-image: url('../images/bg-main-purple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
 }
 
 .carousel-item:nth-child(2) {
-background-image: url('../images/bg-main2.png');
-background-color: #000000;
-background-repeat: no-repeat;
-background-size: cover;
-/* background-position:  center; */
+    background-image: url('../images/bg-main2.png');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* Height for devices larger than 576px */
-/* @media (min-width: 992px) {
-#introCarousel {
-    margin-top: -58.59px;
-}
-} */
 
 @media (max-width: 758px) {
-.info-div h1{
-    font-size: 15vw;
+    .info-div h1{
+        font-size: 15vw;
+    }
 }
-}
+
