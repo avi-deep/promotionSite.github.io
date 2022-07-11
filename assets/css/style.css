@@ -118,11 +118,13 @@ src: url(../fonts/Morguns-Condensed.ttf);
 .recent-wrapper{
     background-color: #EAEAEA;
     padding: 30px;
+    padding-top: 50px;
 }
+
 .recent{
     font-family: morguns;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 65px;
 }
 
 
