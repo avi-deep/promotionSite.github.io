@@ -83,3 +83,20 @@ src: url(../fonts/Morguns-Condensed.ttf);
     }
 }
 
+
+.navbar-toggler{
+    border: none;
+}
+
+
+.toggler{
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.nav-link{
+    color: #ffffff;
+}
