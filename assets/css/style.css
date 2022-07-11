@@ -12,6 +12,8 @@ src: url(../fonts/Morguns-Condensed.ttf);
     font-family: din;
     src: url(../fonts/DIN.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400&display=swap');
 /* Carousel styling */
 
 .navbar{
@@ -33,7 +35,7 @@ src: url(../fonts/Morguns-Condensed.ttf);
 
 .info-div{
     text-align: right;
-    padding-top: 30vh;
+    padding-top: 10vh;
 }
 
 .row{
@@ -54,6 +56,7 @@ src: url(../fonts/Morguns-Condensed.ttf);
 
 .info-div p{
     font-family: din;
+    margin-bottom: 30px;
 }
 
 #introCarousel,
