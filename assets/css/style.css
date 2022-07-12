@@ -156,3 +156,11 @@ src: url(../fonts/Morguns-Condensed.ttf);
 .pd-info{
     font-family: din;
 }
+
+.vmp-btn a{
+    margin: 30px;
+    border-radius: none;
+    font-family: din;
+    background-color: #000000;
+    padding: 5px 45px 5px 45px;
+}
