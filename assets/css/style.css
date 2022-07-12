@@ -115,6 +115,12 @@ src: url(../fonts/Morguns-Condensed.ttf);
     color: #ffffff;
 }
 
+.nav-link:hover{
+    background-color: #24148C;
+    padding: 3px;
+    color: #ffffff;
+}
+
 .recent-wrapper{
     background-color: #EAEAEA;
     padding: 30px;
